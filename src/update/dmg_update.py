@@ -1,0 +1,12 @@
+#importar biblioteca sqlite3
+import sqlite3
+
+#estabelecer conexao
+conex = sqlite3.connect('C:\\Users\\solan\\Desktop\\projetom15\\sqlite_db')
+cursor_dmg = conex.cursor()
+
+#atualizar a coluna champ_nome onde id é 1 
+cursor_dmg.execute('''UPDATE champs_dmg SET champ_nome = "Taric" WHERE id = 1''')
+
+conex.commit()
+conex.close()
