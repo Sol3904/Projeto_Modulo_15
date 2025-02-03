@@ -8,5 +8,7 @@ cursor_dmg = conex.cursor()
 #atualizar a coluna champ_nome onde id é 1 
 cursor_dmg.execute('''UPDATE champs_dmg SET champ_nome = "Taric" WHERE id = 1''')
 
+#confirmar alteracoes
 conex.commit()
+#encerrar conexao
 conex.close()

@@ -1,13 +1,16 @@
 Este projeto em Python consiste na criação de uma base de dados sqlite com o uso das operações CRUD:
+
 -CREATE
 -READ
 -UPDATE
 -DELETE
 
 Esta base de dados tem como tema champions do jogo League of Legends, sendo usadas as colunas
+
 -Nome
 -Dmg
 -Lane
+
 Ao longo das tabelas, sendo usada a coluna
 -Id
 Para garantir a organização das mesmas
