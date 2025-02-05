@@ -2,7 +2,7 @@
 import sqlite3
 
 #estabelecer conexao
-conex = sqlite3.connect('C:\\Users\\solan\\Desktop\\projetom15\\sqlite_db')
+conex = sqlite3.connect('C:\\Users\\solan\\Desktop\\projetom15\\sqlite_db\\sqlite.db')
 cursor_dmg = conex.cursor()
 
 #extrai todos os dados da coluna nomes onde o id é 1

@@ -2,7 +2,7 @@
 import sqlite3
 
 #estabelecer conexao
-conex = sqlite3.connect('C:\\Users\\solan\\Desktop\\projetom15\\sqlite_db')
+conex = sqlite3.connect('C:\\Users\\solan\\Desktop\\projetom15\\sqlite_db\\sqlite.db')
 cursor_dmg = conex.cursor()
 
 #atualizar a coluna champ_nome onde id é 1 
