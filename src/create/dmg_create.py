@@ -34,8 +34,6 @@ cursor_dmg.execute('INSERT INTO champs_dmg (champ_nome, dmg) VALUES ("Singed", "
 cursor_dmg.execute('INSERT INTO champs_dmg (champ_nome, dmg) VALUES ("Gnar", "Ad")')
 cursor_dmg.execute('INSERT INTO champs_dmg (champ_nome, dmg) VALUES ("Darius", "Ad")')
 cursor_dmg.execute('INSERT INTO champs_dmg (champ_nome, dmg) VALUES ("Mordekaiser", "Ap")')
-cursor_dmg.execute('INSERT INTO champs_dmg (champ_nome, dmg) VALUES ("Mordekaiser", "Ap")')
-cursor_dmg.execute('INSERT INTO champs_dmg (champ_nome, dmg) VALUES ("Mordekaiser", "Ap")')
 cursor_dmg.execute('INSERT INTO champs_dmg (champ_nome, dmg) VALUES ("Rakan", "Ap")')
 cursor_dmg.execute('INSERT INTO champs_dmg (champ_nome, dmg) VALUES ("Xayah", "Ad")')
 
