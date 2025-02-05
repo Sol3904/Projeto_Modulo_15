@@ -71,3 +71,5 @@ Dentro do champs_read, existe uma opção que permite que o utilizador escolha e
 Apesar disto ser funcional, ao usar o INNER JOIN, a informação será repetida entre cada linha das colunas (repete o nome, o id e o dano).
 
 Ainda estamos à procura de uma solução para este problema, visto que a repetição cria redundancias visiveis pelo utilizador.
+
+Dentro do dmg_read, existe uma opçãoo que permite que o utilizador escolha entre extrair todos os dados da tabela champs_dmg e mostra-los no terminal, ou que o utilizador insira um Id especifico para extrair da tabela.
