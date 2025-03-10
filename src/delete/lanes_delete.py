@@ -2,7 +2,7 @@
 import sqlite3
 
 #estabelecer conexao
-conex = sqlite3.connect('C:\\Users\\solan\\Desktop\\projetom15\\projeto_modulo_15\\sqlite_db\\sqlite.db')
+conex = sqlite3.connect('..\\..\\sqlite_db\\sqlite.db')
 cursor_lanes = conex.cursor()
 
 #confirmacoes de mau gosto
